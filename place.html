@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ParadiseFest</title>
+    <link rel="stylesheet" href="/place.css">
+
+    <script>
+
+        window.onload=function toggleMenu(){
+            const navbar = document.querySelector('.navbar')
+            const burger = document.querySelector('.burger')
+            burger.addEventListener('click', () => {
+                navbar.classList.toggle('show-nav');
+            })
+        }
+        toggleMenu();  
+
+    </script>
+</head>
+<body>
+        <div id="home"></div>
+        
+        <nav class="navbar">
+            <a href="/index.html" class="navbar__logo"></a>
+            <ul class="navbar__list">
+                <li class="navbar__link"><a href="/index.html#festival__anchor" >Festival</a></li>
+                <li class="navbar__link"><a href="/artists.html#home">Artists</a></li>
+                <li class="navbar__link"><a href="#home">Place</a></li>
+                <li class="navbar__link"><a href="/tickets.html#home">Tickets</a></li>
+            </ul>
+            <div class="burger">
+                <span class="bar"></span>
+            </div>
+        </nav>
+
+        <header>
+    
+        <h1 class="slogant">ACCESS THE FESTIVAL</h1>
+    
+        </header>
+
+
+
+        <!-- <section class="place">
+            <h2 class="section__title">Welcome to Alabama</h2>
+            <div class="place__img"></div>
+        </section> -->
+
+        <section class="transport">
+            <h2 class="section__title">Simple ways to come</h2>
+
+            <div class="transport__way plane">
+                <h3>PLANE</h3>
+                <div class="transport__desc">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita, nam rerum! Repellat culpa possimus labore sapiente rerum! Tempore eveniet, quos aperiam fuga amet ex cumque odit sed voluptates alias voluptas laudantium at rerum. Eaque omnis, quibusdam distinctio quos impedit quia illum, enim aliquam explicabo, consectetur quisquam ipsum. Iure tenetur minus, accusamus velit nesciunt nihil!</p>
+                </div>
+            </div>
+            
+            <div class="transport__way car">
+                <h3>CAR</h3>
+                <div class="transport__desc">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita, nam rerum! Repellat culpa possimus labore sapiente rerum! Tempore eveniet, quos aperiam fuga amet ex cumque odit sed voluptates alias voluptas laudantium at rerum. Eaque omnis, quibusdam distinctio quos impedit quia illum, enim aliquam explicabo, consectetur quisquam ipsum. Iure tenetur minus, accusamus velit nesciunt nihil!</p>
+                </div>
+            </div>
+
+            <div class="transport__way bus">
+                <h3>BUS</h3>
+                <div class="transport__desc">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita, nam rerum! Repellat culpa possimus labore sapiente rerum! Tempore eveniet, quos aperiam fuga amet ex cumque odit sed voluptates alias voluptas laudantium at rerum. Eaque omnis, quibusdam distinctio quos impedit quia illum, enim aliquam explicabo, consectetur quisquam ipsum. Iure tenetur minus, accusamus velit nesciunt nihil!</p>
+                </div>
+            </div>
+
+            <div class="transport__way sharing">
+                <h3>CAR SHARING</h3>
+                <div class="transport__desc">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita, nam rerum! Repellat culpa possimus labore sapiente rerum! Tempore eveniet, quos aperiam fuga amet ex cumque odit sed voluptates alias voluptas laudantium at rerum. Eaque omnis, quibusdam distinctio quos impedit quia illum, enim aliquam explicabo, consectetur quisquam ipsum. Iure tenetur minus, accusamus velit nesciunt nihil!</p>
+                </div>
+            </div>
+        </section>
+
+
+        <footer>
+            <ul class="footer__list">
+                <li class="footer__item">Lorem ipsum</li>
+                <li class="footer__item">Lorem ipsum</li>
+                <li class="footer__item">Lorem ipsum</li>
+                <li class="footer__item">Lorem ipsum</li>
+            </ul>
+        </footer>
+</body>
+</html>

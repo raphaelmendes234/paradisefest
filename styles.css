@@ -1,0 +1,814 @@
+@import url("https://use.typekit.net/isx8per.css");
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #101124;
+    font-family: "good-times", sans-serif;
+    color: #03045F;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+/*#loading-wrapper{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #03045F;
+    z-index: 9999;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 25%;
+}
+
+.loading__title{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color: #2667FF;
+    font-size: 48px;
+    font-weight: 400;
+    padding: 20px;
+}
+
+#loading__bar{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    border: solid 5px #2667FF;
+
+    animation-duration: 2s;
+    animation-name: loading-bar;
+}*/
+
+@keyframes loading-bar {
+    0%{
+        transform: rotate(0deg);
+    }
+
+    50%{
+        
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+/*----------NAVBAR----------*/
+
+.navbar{
+    position: fixed;
+    top: 0;
+
+    width: 100%;
+    height: 10vh;
+    z-index: 999;
+    background-color: #101124;
+    padding: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.navbar__logo{ 
+    position: relative;
+    z-index: 999;
+    width: 75px;
+    height: 75px;
+    background-image: url("/img/logofest.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.navbar__list{
+    display: flex;
+    flex-direction: column;
+    width: 0;
+    height: auto;
+    position: absolute;
+    top: 10vh;
+    right: 0;
+    background-color: #101124;
+}
+
+.show-nav .navbar__list{
+    width: 100%;
+}
+
+.navbar__link{
+    padding: 5px 10px;
+    color: #B0E1FA;
+    font-weight: 400;
+}
+
+.navbar__link > a {
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+    color: #B0E1FA;
+    text-shadow: 2px 2px 8px #2667FF;
+    transition: all .4s ease-in-out ;
+}
+
+.navbar__link > a:hover {
+    padding-left: 2rem;
+}
+
+.burger{
+    display: block;
+    position: relative;
+    padding: 0;
+    width: 35px;
+    height: 35px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.bar{
+    display: block;
+    width: 35px;
+    height: 4px;
+    background-color: #B0E1FA;
+    box-shadow: 2px 2px 8px #2667FF;
+}
+
+.bar::before, .bar::after{
+    content: "";
+    width: 35px;
+    height: 4px;
+    position: absolute;
+    left: 0;
+    background-color: #B0E1FA;
+    box-shadow: 2px 2px 8px #2667FF;
+}
+
+.bar::before{
+    transform: translateY(12px);
+}
+
+.bar::after{
+    transform: translateY(24px);
+}
+
+
+
+
+
+/*----------HEADER----------*/
+
+header{
+    position: relative;
+    height: 100vh;
+    width: 100% ;
+    margin-bottom: 11vh;
+    background-color: #101124;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#myVideo{
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+h1{
+    position: absolute;
+    top: 50%;
+    left: center;
+    text-align: center;
+    color: #B0E1FA;
+    font-size: 40px;
+    font-weight: 700;
+    font-style: italic;
+    text-shadow: 2px 2px 20px #2667FF;
+
+    animation-name: titleShow;
+    animation-duration: 2s;
+}
+
+@keyframes titleShow {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+
+
+    /*----------SECTIONS----------*/
+
+    section{
+        width: 100%;
+
+        margin-bottom: 11vh;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+
+
+    /*----------DATES----------*/
+
+.dates{
+    position: absolute;
+    top: 70%;
+    left: 0%;
+    width: 100%;
+    height: 11vh;
+    color: #B0E1FA;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: italic;
+    text-shadow: 2px 2px 20px #2667FF;
+
+}
+
+
+
+
+    /*----------FESTIVAL----------*/
+
+#festival__anchor{
+    position: absolute;
+    top:-100px;
+    left: 0;
+    width: 100%;
+    height: 20px;
+}
+
+.festival{
+    width: 100%;
+    height: 90vh;
+    position: relative;
+    
+}
+
+.festival__title{
+    display: block;
+    color: #B0E1FA;
+    text-shadow:2px 2px 20px #2667FF;
+    margin: 20px 0px 20px 0px;
+    text-align: center;
+}
+
+.festival__descimg{
+    display: block;
+    background-image: url("/img/festivalscene.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 80%;
+    height: 50%;
+}
+
+.section__desc{
+    display: block;
+    width: 80%;
+    font-size: 14px;
+    color: #B0E1FA;
+    text-shadow:2px 2px 20px #2667FF;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+/*----------ARTISTS----------*/
+
+.artists{
+    position: relative;
+    padding-bottom: 80px;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#artists__anchor{
+    position: absolute;
+    top:-90px;
+    left: 0;
+    width: 100%;
+    height: 20px;
+
+}
+
+
+.artists__title{
+    display: block;
+    color: #B0E1FA;
+    text-shadow:2px 2px 20px #2667FF;
+    margin: 50px 0px 50px 0px;  
+    text-align: center;
+
+    
+}
+
+.artists__poster{
+    display: block;
+    background-image: url("/img/rap/tupac_poster.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 80%;
+    height:80%;    
+    border-radius: 45px;
+}
+
+.artists__button{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 60%;
+    height: 60px;
+    margin: 0px;
+
+    color: #f7f7ff;
+    border: solid 2px #f7f7ff;
+    padding: 20px;
+    transition: .4s;
+}
+
+.artists__button:hover{
+    background-color: #f7f7ff;
+    box-shadow: 2px 2px 20px #f7f7ff;
+    color: #101124;
+    cursor: pointer;
+}
+
+   
+
+/*----------PLACE----------*/
+
+.place{
+    position: relative;
+
+}
+
+#place__anchor{
+    position: absolute;
+    top:-90px;
+    left: 0;
+    width: 100%;
+    height: 20px;
+
+}
+
+.place__title{
+    display: block;
+    color: #B0E1FA;
+    text-shadow:2px 2px 20px #2667FF;
+    margin: 50px 0px 50px 0px;
+    text-align: center;
+}
+
+.place__place{
+    display: block;
+    background-image: url("/img/placeparadise.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 80%;
+    height: 60vh;
+    margin-bottom: 20px;
+    border-radius: 45px;
+}
+
+.place__map{
+    display: block;
+    background-image: url("/img/festivalmap.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 80%;
+    height: 25vh;
+    margin: auto;
+}
+
+.visuel{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    
+}
+
+.place > .section__desc{
+    display: block;
+    margin: 0;
+}
+
+
+
+/*----------TICKETS----------*/
+
+.tickets{
+    position: relative;
+    background-color: #101124;
+    padding-bottom: 80px;
+    margin-bottom: 5px;
+}
+
+#tickets__anchor{
+    position: absolute;
+    top:-90px;
+    left: 0;
+    width: 100%;
+    height: 20px;
+
+}
+
+
+.tickets__title{
+    display: block;
+    width: 100%;
+    color: #B0E1FA;
+    text-shadow:2px 2px 20px #2667FF;
+    margin: 50px 0px 50px 0px;  
+    text-align: center;
+}
+
+.tickets__tickets{
+    display: block;
+    background-image: url("/img/festivaltickets.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 60%;
+    height: 200px;
+    border-radius: 45px;
+    margin-bottom: 20px;
+}
+
+.tickets__button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 60%;
+    height: 60px;
+
+
+    color: #f7f7ff;
+    border: solid 2px #f7f7ff;
+    
+
+    transition: .4s;
+}
+
+.tickets__link{
+    text-decoration: none;
+}
+
+.tickets__button:hover{
+    background-color: #f7f7ff;
+    color: #101124;
+    border: solid 2px #f7f7ff;
+    cursor: pointer;
+    box-shadow: 2px 2px 20px #f7f7ff;
+}
+
+/*----------FOOTER----------*/
+
+footer{
+    width: 100%;
+    height: 20vh;
+    color: #f7f7ff;
+    font-size: 12px;
+    font-weight: 200;
+    display: flex;
+    align-items: center;
+
+}
+
+.footer__item{
+    display: inline-block;
+    width: 48%;
+    height: 50%;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+/*----------DEVICES------------------------------------------------*/
+/*----------DEVICES------------------------------------------------*/
+/*----------DEVICES------------------------------------------------*/
+
+
+
+@media screen and (min-width:1440px) {
+
+
+}
+
+
+@media screen and (min-width:1024px) {
+
+
+/*----------NAVBAR----------*/
+.navbar__logo{ 
+    left: 50%;
+}
+
+.navbar__list{
+    flex-direction: row;
+    position: relative;
+    top: 8%;
+    right: 0;
+    width: 100%;
+    height: auto;
+    background-color: #101124;
+    justify-content:end;
+}
+
+.navbar__link > a::after{
+    display: block;
+    content:"";
+    width: 0;
+    height: 2px;
+    margin-top: 3px;
+    background-color: #B0E1FA;
+    box-shadow: 2px 2px 8px #2667FF;
+    transition:width .4s;
+}
+
+.navbar__link > a {
+    display: block;
+    padding: 0;
+    color: #B0E1FA;
+    text-shadow: 2px 2px 8px #2667FF;
+    transition: all .4s ease-in-out ;
+}
+
+.navbar__link > a:hover {
+    padding-left: 0;
+}
+
+.navbar__link:hover > a::after{
+    width: 100%;
+}
+.burger{
+    display: none;
+}
+
+/*----------HEADER----------*/
+
+h1{
+    font-size: 150px;
+    top: 46%;
+}
+
+.bande{
+    position: absolute;
+    top: 100%;
+    left: 10.5%;
+    width: 960px;
+    height: 655%;
+    z-index: -999;
+    background-color: #2667FF;
+}
+
+/*----------SECTION----------*/
+
+/*section{
+    padding: 0px 15% 0px 15%;
+}*/
+
+/*----------DATES----------*/
+
+
+.dates{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    width: 100%;
+    height: 11vh;
+    color: #B0E1FA;
+    text-align: start;
+    font-size: 50px;
+    font-weight: 700;
+    font-style: italic;
+    text-shadow: 2px 2px 20px #2667FF;
+
+    animation-name: datesSlide;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes datesSlide {
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(-120%);
+    }
+}
+
+
+/*----------FESTIVAL----------*/
+
+.festival{
+    height: 60vh;
+}
+
+.festival__title{
+    color: #B0E1FA;
+    text-shadow:2px 2px 20px #2667FF;
+    position: relative;
+    left: -20%;
+}
+
+.festival__desc{
+    width: 40%;
+    position: relative;
+    left: -20%;
+}
+
+
+h2{
+    color: #B0E1FA;
+    font-size: 50px;
+    font-weight: 700;
+    font-style: italic;
+    
+}
+
+
+/*----------ARTISTS----------*/
+
+.artists{
+    max-height: 60vh;
+    background-color: #101124;
+}
+
+.artists__poster{
+    transition: .4s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: 120%;
+    background-position:50% 25%;
+    box-shadow: 2px 2px 30px #2667FF;
+    transition: .4s ease-in-out;
+}
+
+.artists__poster:hover{
+    background-size: 100%;
+
+  
+}
+
+
+.artists__button{
+    left: 38%;
+    width: 20%;
+    height: 60px;
+    margin: 40px;
+
+
+}
+
+.artists__button:hover{
+    background-color: #f7f7ff;
+    color: #101124;
+    border: solid 2px #f7f7ff;
+    cursor: pointer;
+    box-shadow: 2px 2px 20px #f7f7ff;
+}
+ 
+
+
+/*----------PLACE----------*/
+
+.place{
+    max-height: 60vh;
+    margin-bottom: 11vh;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.place__title{
+    width: 100%;
+    position: relative;
+    left: -20%;
+}
+
+.visuel{
+    width: 40%;
+    height: 100%;
+    margin: 0px 20px 0px 20px;
+}
+.place__place{
+    display: inline-block;
+    background-image: url("/img/placeparadise.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 40%;
+    height: 49vh;
+}
+
+.place__map{
+    display: inline-block;
+    background-image: url("/img/festivalmap.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 25vh;
+    margin: 0;
+}
+
+.place > .section__desc{
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    
+}
+
+/*----------TICKETS----------*/
+
+.tickets{
+    max-height: 80vh;
+    background-color: #101124;
+}
+
+.tickets__tickets{
+    width: 60%;
+    transition: .4s;
+    height: 500px;
+
+}
+
+
+
+
+/*----------FOOTER----------*/
+
+footer{
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__list{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+.footer__item{
+    height: 100%;
+}
+}
