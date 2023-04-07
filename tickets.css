@@ -1,5 +1,7 @@
-@import url("https://use.typekit.net/isx8per.css");
-
+@font-face{
+    src: url(font/Ailerons-Typeface.otf);
+    font-family: ailerons;
+}
 
 *{
     box-sizing: border-box;
@@ -13,7 +15,7 @@ html{
 
 body{
     background-color: #101124;
-    font-family: "good-times", sans-serif;
+    font-family: ailerons;
     color: #03045F;
     
 }
