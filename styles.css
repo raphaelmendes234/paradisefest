@@ -101,7 +101,7 @@ ul{
     z-index: 999;
     width: 75px;
     height: 75px;
-    background-image: url("/img/logofest.png");
+    background-image: url("img/logofest.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -291,7 +291,7 @@ h1{
 
 .festival__descimg{
     display: block;
-    background-image: url("/img/festivalscene.JPG");
+    background-image: url("img/festivalscene.JPG");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
@@ -345,7 +345,7 @@ h1{
 
 .artists__poster{
     display: block;
-    background-image: url("/img/rap/tupac_poster.png");
+    background-image: url("img/rap/tupac_poster.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -407,7 +407,7 @@ h1{
 
 .place__place{
     display: block;
-    background-image: url("/img/placeparadise.jpg");
+    background-image: url("img/placeparadise.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -419,7 +419,7 @@ h1{
 
 .place__map{
     display: block;
-    background-image: url("/img/festivalmap.png");
+    background-image: url("img/festivalmap.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -473,7 +473,7 @@ h1{
 
 .tickets__tickets{
     display: block;
-    background-image: url("/img/festivaltickets.jpg");
+    background-image: url("img/festivaltickets.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -746,7 +746,7 @@ h2{
 }
 .place__place{
     display: inline-block;
-    background-image: url("/img/placeparadise.jpg");
+    background-image: url("img/placeparadise.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -756,7 +756,7 @@ h2{
 
 .place__map{
     display: inline-block;
-    background-image: url("/img/festivalmap.png");
+    background-image: url("img/festivalmap.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
