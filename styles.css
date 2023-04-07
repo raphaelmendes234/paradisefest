@@ -299,7 +299,7 @@ h1{
     background-image: url("img/festivalscene.JPG");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 50% 50%;
+    background-position: 50% 55%;
     width: 80%;
     height: 50%;
 }
@@ -425,9 +425,9 @@ h1{
 
 .place__map{
     display: block;
-    background-image: url("img/festivalmap.png");
+    background-image: url("img/cartefestivalneon.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
     background-position: center;
     width: 80%;
     height: 25vh;
@@ -762,13 +762,14 @@ h2{
 
 .place__map{
     display: inline-block;
-    background-image: url("img/festivalmap.png");
+    background-image: url("img/cartefestivalneon.png");
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-size: 104%;
+    background-position: 50% 8%;
     width: 100%;
-    height: 25vh;
+    height: 30vh;
     margin: 0;
+    border-radius: 15px;
 }
 
 .place > .section__desc{
