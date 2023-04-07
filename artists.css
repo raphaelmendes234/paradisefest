@@ -49,7 +49,7 @@ ul{
     z-index: 999;
     width: 75px;
     height: 75px;
-    background-image: url("/img/logofest.png");
+    background-image: url("img/logofest.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -138,7 +138,7 @@ header{
     height: 60vh;
     width: 100% ;
     margin-bottom: 11vh;
-    background-image: url("/img/snoop2pac.avif");
+    background-image: url("img/snoop2pac.avif");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 35%;
@@ -282,57 +282,49 @@ h3{
 }
 
 .ACDC{
-    background-image: url("/img/rock/ACDC.png");
+    background-image: url("img/rock/ACDC.png");
 }
 
 .Queen{
-    background-image: url("/img/rock/Queen.png");
+    background-image: url("img/rock/Queen.png");
 }
 
 .RS{
-    background-image: url("/img/rock/RS.jpg");
+    background-image: url("img/rock/RS.jpg");
 }
 
 .Nirvana{
-    background-image: url("/img/rock/Nirvana.jpg");
+    background-image: url("img/rock/Nirvana.jpg");
 }
 
 .RamJam{
-    background-image: url("/img/rock/RAMJAM.jpg");
+    background-image: url("img/rock/RAMJAM.jpg");
 }
 
 
 
 .Tupac{
-    background-image: url("/img/rap/Tupac.jpg");
+    background-image: url("img/rap/Tupac.jpg");
 }
 
 .TNB{
-    background-image: url("/img/rap/TNB.jpg");
+    background-image: url("img/rap/TNB.jpg");
 }
 
 .XXX{
-    background-image: url("/img/rap/XXX.png");
+    background-image: url("img/rap/XXX.png");
 }
 
 .PopSmoke{
-    background-image: url("/img/rap/popsmoke.jpg");
+    background-image: url("img/rap/popsmoke.jpg");
 }
 
 .Drake{
-    background-image: url("/img/rap/drake.jpg");
+    background-image: url("img/rap/drake.jpg");
 }
 
 .Eminem{
-    background-image: url("/img/rap/eminem.png");
-}
-
-.Takeoff{
-    background-image: url("/img/rap/takeoff.jpeg");
-}
-
-.Future{
-    background-image: url("/img/rap/Future.png");
+    background-image: url("img/rap/eminem.png");
 }
 
 .Snoop{
@@ -340,75 +332,40 @@ h3{
 }
 
 .Dre{
-    background-image: url("/img/rap/dre.jpeg");
+    background-image: url("img/rap/dre.jpeg");
 }
 
 .Travis{
-    background-image: url("/img/rap/travis.jpeg");
-}
-
-.savage{
-    background-image: url("/img/rap/21.jpeg");
-}
-
-.baby{
-    background-image: url("/img/rap/dababy.jpeg");
+    background-image: url("img/rap/travis.jpeg");
 }
 
 .cent{
-    background-image: url("/img/rap/50cent.png");
-}
-
-.roddy{
-    background-image: url("/img/rap/roddy.jpeg");
-}
-
-.blue{
-    background-image: url("/img/rap/blueface.webp");
+    background-image: url("img/rap/50cent.png");
 }
 
 .icecube{
-    background-image: url("/img/rap/icecube.webp");
+    background-image: url("img/rap/icecube.webp");
 }
 
 .kendrick{
-    background-image: url("/img/rap/kendrick.webp");
-}
-
-.wayne{
-    background-image: url("/img/rap/wayne.jpeg");
-}
-
-.vert{
-    background-image: url("/img/rap/vert.jpeg");
+    background-image: url("img/rap/kendrick.webp");
 }
 
 .miller{
-    background-image: url("/img/rap/macmiller.jpeg");
-}
-
-.asap{
-    background-image: url("/img/rap/asap.webp");
+    background-image: url("img/rap/macmiller.jpeg");
 }
 
 .jayz{
-    background-image: url("/img/rap/jayZ.jpeg");
-}
-
-.postmalone{
-    background-image: url("/img/rap/PostMalone.jpeg");
+    background-image: url("img/rap/jayZ.jpeg");
 }
 
 .juice{
-    background-image: url("/img/rap/juice.jpeg");
+    background-image: url("img/rap/juice.jpeg");
 }
 
-.peep{
-    background-image: url("/img/rap/peep.webp");
-}
 
 .dmx{
-    background-image: url("/img/rap/dmx.webp");
+    background-image: url("img/rap/dmx.webp");
 }
 
 
@@ -640,12 +597,12 @@ h2{
 }
 
 .TNB{
-    background-image: url("/img/rap/TNB.jpg");
+    background-image: url("img/rap/TNB.jpg");
     background-position: 60% 50%;
 }
 
 .XXX{
-    background-image: url("/img/rap/XXX.png");
+    background-image: url("img/rap/XXX.png");
 }
 
 .PopSmoke{
