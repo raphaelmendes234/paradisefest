@@ -362,6 +362,8 @@ h3{
 
 .Drake{
     background-image: url("img/rap/drake.jpg");
+    background-position: 50% 20%;
+
 }
 
 .Eminem{
@@ -370,30 +372,42 @@ h3{
 
 .Snoop{
     background-image: url("img/rap/snoop.jpeg");
+    background-position: 50% 20%;
 }
 
 .Dre{
     background-image: url("img/rap/dre.jpeg");
+    background-position: 50% 20%;
 }
 
 .Travis{
     background-image: url("img/rap/travis.jpeg");
+    background-position: 50% 20%;
+
 }
 
 .cent{
     background-image: url("img/rap/50cent.png");
+    background-position: 50% 20%;
+
 }
 
 .icecube{
     background-image: url("img/rap/icecube.webp");
+    background-position: 50% 30%;
+
 }
 
 .kendrick{
     background-image: url("img/rap/kendrick.webp");
+    background-position: 50% 10%;
+
 }
 
 .miller{
     background-image: url("img/rap/macmiller.jpeg");
+    background-position: 50% 10%;
+
 }
 
 .jayz{
@@ -402,11 +416,15 @@ h3{
 
 .juice{
     background-image: url("img/rap/juice.jpeg");
+    background-position: 50% 15%;
+
 }
 
 
 .dmx{
     background-image: url("img/rap/dmx.webp");
+    background-position: 50% 5%;
+
 }
 
 
