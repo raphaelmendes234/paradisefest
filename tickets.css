@@ -1,7 +1,10 @@
+/*@import url("https://use.typekit.net/isx8per.css");*/
+
 @font-face{
     src: url(font/Ailerons-Typeface.otf);
     font-family: ailerons;
 }
+
 
 *{
     box-sizing: border-box;
@@ -44,6 +47,7 @@ ul{
     justify-content: space-between;
     align-items: center;
     
+    font-size: 20px;
 }
 
 .navbar__logo{ 
@@ -137,22 +141,17 @@ ul{
 
 header{
     position: relative;
-    height: 60vh;
+    height: 90vh;
     width: 100% ;
     margin-bottom: 11vh;
     background-color: #101124;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 
 h1{
     position: absolute;
-    top: 50%;
-    left: center;
-    text-align: center;
+    top: 45%;
+    left: 10%;
     color: #B0E1FA;
     font-size: 40px;
     font-weight: 700;
@@ -179,49 +178,12 @@ h1{
 
 section{
     margin-bottom: 11vh;
-    width: 100%;
-
 
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
-
-.section__title{
-    display: block;
-    color: #B0E1FA;
-    text-shadow:2px 2px 20px #2667FF;
-    margin: 20px 10px 40px 10px;
-    text-align: center;
-}
-
-
-
-
-
-
-
-/*----------TICKETS----------*/
-
-
-.tickets{
-    position: relative;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.passes{
-    position: relative;
-    width: 100%;
-
-}
-
-
-
 
 
 /*----------FOOTER----------*/
@@ -310,13 +272,6 @@ footer{
         top: 46%;
     }
 
-    h2{
-        color: #B0E1FA;
-        font-size: 50px;
-        font-weight: 700;
-        font-style: italic;
-        
-    }
     
     /*----------SECTION----------*/
     

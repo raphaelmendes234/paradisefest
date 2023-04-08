@@ -1,7 +1,11 @@
+/*@import url("https://use.typekit.net/isx8per.css");*/
+
 @font-face{
     src: url(font/Ailerons-Typeface.otf);
     font-family: ailerons;
 }
+
+
 
 *{
     box-sizing: border-box;
@@ -43,6 +47,8 @@ ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    font-size: 20px;
     
 }
 
@@ -137,27 +143,19 @@ ul{
 
 header{
     position: relative;
-    height: 60vh;
+    height: 90vh;
     width: 100% ;
     margin-bottom: 11vh;
-    background-image: url("img/snoop2pac.avif");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 35%;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color: #101124;
 }
 
 
 h1{
     position: absolute;
-    top: 50%;
-    left: center;
-    text-align: center;
+    top: 45%;
+    left: 10%;
     color: #B0E1FA;
-    font-size: 40px;
+    font-size: 60px;
     font-weight: 700;
     font-style: italic;
     text-shadow: 2px 2px 20px #2667FF;
@@ -303,6 +301,7 @@ h3{
     background-image: url("img/rock/RAMJAM.jpg");
 }
 
+
 .pinkfloyd{
     background-image: url("img/rock/pink.jpeg");
 }
@@ -342,8 +341,6 @@ h3{
 
 
 
-
-
 .Tupac{
     background-image: url("img/rap/Tupac.jpg");
 }
@@ -362,69 +359,94 @@ h3{
 
 .Drake{
     background-image: url("img/rap/drake.jpg");
-    background-position: 50% 20%;
-
 }
 
 .Eminem{
     background-image: url("img/rap/eminem.png");
 }
 
+.Takeoff{
+    background-image: url("img/rap/takeoff.jpeg");
+}
+
+.Future{
+    background-image: url("img/rap/Future.png");
+}
+
 .Snoop{
     background-image: url("img/rap/snoop.jpeg");
-    background-position: 50% 20%;
 }
 
 .Dre{
     background-image: url("img/rap/dre.jpeg");
-    background-position: 50% 20%;
 }
 
 .Travis{
     background-image: url("img/rap/travis.jpeg");
-    background-position: 50% 20%;
+}
 
+.savage{
+    background-image: url("img/rap/21.jpeg");
+}
+
+.baby{
+    background-image: url("img/rap/dababy.jpeg");
 }
 
 .cent{
     background-image: url("img/rap/50cent.png");
-    background-position: 50% 20%;
+}
 
+.roddy{
+    background-image: url("img/rap/roddy.jpeg");
+}
+
+.blue{
+    background-image: url("img/rap/blueface.webp");
 }
 
 .icecube{
     background-image: url("img/rap/icecube.webp");
-    background-position: 50% 30%;
-
 }
 
 .kendrick{
     background-image: url("img/rap/kendrick.webp");
-    background-position: 50% 10%;
+}
 
+.wayne{
+    background-image: url("img/rap/wayne.jpeg");
+}
+
+.vert{
+    background-image: url("img/rap/vert.jpeg");
 }
 
 .miller{
     background-image: url("img/rap/macmiller.jpeg");
-    background-position: 50% 10%;
+}
 
+.asap{
+    background-image: url("img/rap/asap.webp");
 }
 
 .jayz{
     background-image: url("img/rap/jayZ.jpeg");
 }
 
-.juice{
-    background-image: url("img/rap/juice.jpeg");
-    background-position: 50% 15%;
-
+.postmalone{
+    background-image: url("img/rap/PostMalone.jpeg");
 }
 
+.juice{
+    background-image: url("img/rap/juice.jpeg");
+}
+
+.peep{
+    background-image: url("img/rap/peep.webp");
+}
 
 .dmx{
     background-image: url("img/rap/dmx.webp");
-    background-position: 50% 5%;
-
 }
 
 
@@ -592,7 +614,7 @@ h2{
 
 .RAP .artists__photo{
     display: inline-block;
-    width: 24.5%;
+    width: 23%;
     height: 50vh;
 }
 
@@ -649,7 +671,6 @@ h2{
     background-position: 50% 20%;
 }
 
-
 .pinkfloyd{
     background-position: 50% 25%;
 }
@@ -689,23 +710,14 @@ h2{
 
 
 
-
-
-
-
-
 .Tupac{
     background-position: 50% 20%;
 }
 
 .TNB{
-    background-image: url("img/rap/TNB.jpg");
     background-position: 60% 50%;
 }
 
-.XXX{
-    background-image: url("img/rap/XXX.png");
-}
 
 .PopSmoke{
     background-position: 50% 35%;
