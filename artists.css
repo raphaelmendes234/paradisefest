@@ -273,6 +273,7 @@ h3{
     width: 100%;
     bottom: -70px;
     text-align: center;
+    font-size: 30px;
 }
 
 .RSt{
@@ -381,6 +382,7 @@ h3{
 
 .Snoop{
     background-image: url("img/rap/snoop.jpeg");
+    background-position: 50% 10%;
 }
 
 .Dre{
@@ -391,21 +393,12 @@ h3{
     background-image: url("img/rap/travis.jpeg");
 }
 
-.savage{
-    background-image: url("img/rap/21.jpeg");
-}
 
-.baby{
-    background-image: url("img/rap/dababy.jpeg");
-}
 
 .cent{
     background-image: url("img/rap/50cent.png");
 }
 
-.roddy{
-    background-image: url("img/rap/roddy.jpeg");
-}
 
 .blue{
     background-image: url("img/rap/blueface.webp");
@@ -413,22 +406,22 @@ h3{
 
 .icecube{
     background-image: url("img/rap/icecube.webp");
+    background-position: 50% 25%;
+
 }
 
 .kendrick{
     background-image: url("img/rap/kendrick.webp");
+    background-position: 50% 10%;
+
 }
 
-.wayne{
-    background-image: url("img/rap/wayne.jpeg");
-}
 
-.vert{
-    background-image: url("img/rap/vert.jpeg");
-}
 
 .miller{
     background-image: url("img/rap/macmiller.jpeg");
+    background-position: 50% 5%;
+
 }
 
 .asap{
@@ -439,20 +432,18 @@ h3{
     background-image: url("img/rap/jayZ.jpeg");
 }
 
-.postmalone{
-    background-image: url("img/rap/PostMalone.jpeg");
-}
 
 .juice{
     background-image: url("img/rap/juice.jpeg");
+    background-position: 50% 10%;
+
 }
 
-.peep{
-    background-image: url("img/rap/peep.webp");
-}
 
 .dmx{
     background-image: url("img/rap/dmx.webp");
+    background-position: 50% 10%;
+
 }
 
 
