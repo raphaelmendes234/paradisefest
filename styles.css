@@ -293,6 +293,7 @@ h1{
 }
 
 .festival__title{
+    width: 100%;
     display: block;
     color: #B0E1FA;
     text-shadow:2px 2px 20px #2667FF;
@@ -345,6 +346,7 @@ h1{
 
 
 .artists__title{
+    width: 100%;
     display: block;
     color: #B0E1FA;
     text-shadow:2px 2px 20px #2667FF;
@@ -610,6 +612,10 @@ footer{
 }
 
 /*----------HEADER----------*/
+
+header{
+    overflow: hidden;
+}
 
 h1{
     font-size: 150px;

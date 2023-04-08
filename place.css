@@ -145,12 +145,15 @@ header{
     height: 90vh;
     width: 100% ;
     margin-bottom: 11vh;
-    background-color: #101124;
 
     display: flex;
     justify-content: center;
     align-items: center;
 
+    background-image: url("img/placebeach.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 
@@ -252,6 +255,9 @@ section{
 
     color: #B0E1FA;
     text-shadow: 2px 2px 20px #2667FF;
+    box-shadow: 2px 2px 20px #2667FF;
+    border-radius: 15px;
+
 
     overflow: hidden;
 
@@ -276,6 +282,9 @@ section{
     width: 95%;
     height: 0%;
     background-color: #03045F;
+    box-shadow: 2px 2px 20px #2667FF;
+
+    border-radius: 15px;
 
     display: flex;
     justify-content: center;
@@ -295,19 +304,22 @@ section{
 
 
 .plane{
-    background-color: #2667FF;
+    background-color: #101124;
 }
 
 .car{
-    background-color: #2667FF;
+    background-color: #101124;
+
 }
 
 .bus{
-    background-color: #2667FF;
+    background-color: #101124;
+
 }
 
 .sharing{
-    background-color: #2667FF;
+    background-color: #101124;
+
 }
 
 
