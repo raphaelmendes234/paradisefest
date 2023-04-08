@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ParadiseFest</title>
+    <link rel="stylesheet" href="tickets.css">
+
+    <script>
+
+        window.onload=function toggleMenu(){
+            const navbar = document.querySelector('.navbar')
+            const burger = document.querySelector('.burger')
+            burger.addEventListener('click', () => {
+                navbar.classList.toggle('show-nav');
+            })
+        }
+        toggleMenu();  
+
+    </script>
+
+</head>
+<body>
+    <header>
+        <div id="home"></div>
+        
+        <nav class="navbar">
+            <a href="index.html" class="navbar__logo"></a>
+            <ul class="navbar__list">
+                <li class="navbar__link"><a href="index.html#festival__anchor" >Festival</a></li>
+                <li class="navbar__link"><a href="artists.html#home">Artists</a></li>
+                <li class="navbar__link"><a href="place.html#home">Place</a></li>
+                <li class="navbar__link"><a href="#home">Tickets</a></li>
+            </ul>
+            <div class="burger">
+                <span class="bar"></span>
+            </div>
+        </nav>
+    
+        <h1 class="slogant">THE TICKETS</h1>
+    
+        </header>
+
+        <div id="home"></div>
+
+
+
+
+        <footer>
+            <ul class="footer__list">
+                <li class="footer__item">Lorem ipsum</li>
+                <li class="footer__item">Lorem ipsum</li>
+                <li class="footer__item">Lorem ipsum</li>
+                <li class="footer__item">Lorem ipsum</li>
+            </ul>
+        </footer>
+</body>
+</html>

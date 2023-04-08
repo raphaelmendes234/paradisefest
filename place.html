@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ParadiseFest</title>
+    <link rel="stylesheet" href="place.css">
+
+    <script>
+
+        window.onload=function toggleMenu(){
+            const navbar = document.querySelector('.navbar')
+            const burger = document.querySelector('.burger')
+            burger.addEventListener('click', () => {
+                navbar.classList.toggle('show-nav');
+            })
+        }
+        toggleMenu();  
+
+    </script>
+</head>
+<body>
+        <div id="home"></div>
+        
+        <nav class="navbar">
+            <a href="index.html" class="navbar__logo"></a>
+            <ul class="navbar__list">
+                <li class="navbar__link"><a href="index.html#festival__anchor" >Festival</a></li>
+                <li class="navbar__link"><a href="artists.html#home">Artists</a></li>
+                <li class="navbar__link"><a href="#home">Place</a></li>
+                <li class="navbar__link"><a href="tickets.html#home">Tickets</a></li>
+            </ul>
+            <div class="burger">
+                <span class="bar"></span>
+            </div>
+        </nav>
+
+        <header>
+    
+        <h1 class="slogant">ACCESS THE FESTIVAL</h1>
+    
+        </header>
+
+        <div id="home"></div>
+
+
+        <section class="transport">
+            <h2 class="section__title">Simple ways to come</h2>
+
+            <div class="transport__way plane">
+                <h3>PLANE</h3>
+                <div class="transport__desc">
+                    <p>You can join the festival by plane, the nearest airport is the <i>Jack Edwards Airport.</i>If your not from the United States you will need a passport and you will have to ask a United States travel authorization (Etsa).</p>
+                </div>
+            </div>
+            
+            <div class="transport__way car">
+                <h3>CAR</h3>
+                <div class="transport__desc">
+                    <p>If you are coming by car we rented parking places all around the festival that you can acces by showing your tickets. And if you're thinking about car sharing don't worry we have a whole parking section reserved to you so you can find a driver easily. </p>
+                </div>
+            </div>
+
+            <div class="transport__way bus">
+                <h3>BUS</h3>
+                <div class="transport__desc">
+                    <p>We putted in place a whole bus network for those who are coming from the airport there will be several bus rotations during the day to ensure your safe arrival to the festival. And for those who are living in the US we also prepared long distances-buses so you won't have trouble if you don't have a car. </p>
+                </div>
+            </div>
+
+            <div class="transport__way hotel">
+                <h3> HOTELS </h3>
+                <div class="transport__desc">
+                    <p>Thanks to our sponsor <i>TripAdvisor</i> you can book an hotel at a lower cost and get a discount on hotels around the festival. They are close to the festival and more prepared than ever to welcome you the best way possible !</p>
+                </div>
+            </div>
+        </section>
+
+
+        <footer>
+            <ul class="footer__list">
+                <li class="footer__item">Lorem ipsum</li>
+                <li class="footer__item">Lorem ipsum</li>
+                <li class="footer__item">Lorem ipsum</li>
+                <li class="footer__item">Lorem ipsum</li>
+            </ul>
+        </footer>
+</body>
+</html>
