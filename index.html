@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ParadiseFest</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <script>
+
+        window.onload=function toggleMenu(){
+            const navbar = document.querySelector('.navbar')
+            const burger = document.querySelector('.burger')
+            burger.addEventListener('click', () => {
+                navbar.classList.toggle('show-nav');
+            })
+        }
+        toggleMenu();  
+
+    </script>
+
+</head>
+
+<body>
+
+    <!--- <div id="loading-wrapper">
+        <h3 class="loading__title">PARADISE FEST</h3>
+        <div id="loading__bar"></div>
+    </div>
+    
+    <div class="bande"></div> --->
+
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="navbar__logo"></a>
+            <ul class="navbar__list">
+                <li class="navbar__link"><a href="#festival__anchor" >Festival</a></li>
+                <li class="navbar__link"><a href="artists.html#home">Artists</a></li>
+                <li class="navbar__link"><a href="place.html#home">Place</a></li>
+                <li class="navbar__link"><a href="tickets.html#home">Tickets</a></li>
+            </ul>
+            <div class="burger">
+                <span class="bar"></span>
+            </div>
+        </nav>
+        <div id="home"></div>
+        <video autoplay muted loop id="myVideo">
+            <source src="video/Tomorrowland Presents _ THIS WAS TOMORROW Official Movie Trailer.mp4" type="video/mp4">
+          </video>
+        <h1 class="slogant">PARADISE FEST</h1>
+        <div class="dates">16 - 18 july / Gulf Shores Beach - Alabama</div>
+    </header>
+
+    
+
+    <section class="festival">
+        <div id="festival__anchor"></div>
+        <h2 class="festival__title">A UNIQUE EVENT</h2>
+        <div class="festival__descimg"></div>
+        <p class="section__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore dolor quis iusto! Earum quam pariatur error quas explicabo. Dolorem eligendi molestias possimus. Ipsum nihil sunt necessitatibus minima quasi saepe dolore deserunt animi maxime debitis delectus sapiente amet qui ea accusamus nostrum, rem aut! Officiis fuga consequatur in ducimus deserunt voluptas.</p>
+    </section>
+
+
+    <section class="artists">
+        <div id="artists__anchor"></div>
+        <h2 class="artists__title">THE BEST LINE UP</h2>
+        <div class="artists__poster"><a href="artists.html" class="artists__button">DISCOVER</a></div>
+    </section>
+
+
+
+    <section class="place">
+        <div id="place__anchor"></div>
+        <h2 class="place__title">THE PERFECT PLACE</h2>
+        <div class="place__place"></div>
+
+        <div class="visuel">
+            <div class="place__map"></div>
+            <p class="section__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore dolor quis iusto! Earum quam pariatur error quas explicabo. Dolorem eligendi molestias possimus. Ipsum nihil sunt necessitatibus minima quasi! Officiis fuga consequatur in ducimus deserunt voluptas.</p>
+            <a href="place.html" class="tickets__button">HOW TO COME ?</a>
+        </div>
+    </section>
+
+    <section class="tickets">
+        <div id="tickets__anchor"></div>
+        <h2 class="tickets__title">TAKE YOUR TICKETS NOW !</h2>
+        <div class="tickets__tickets"></div>
+        <a href="tickets.html" class="tickets__button">BUY NOW</a>
+    </section>
+    
+    <footer>
+        <ul class="footer__list">
+            <li class="footer__item">Lorem ipsum</li>
+            <li class="footer__item">Lorem ipsum</li>
+            <li class="footer__item">Lorem ipsum</li>
+            <li class="footer__item">Lorem ipsum</li>
+        </ul>
+    </footer>
+</body>
+</html>
