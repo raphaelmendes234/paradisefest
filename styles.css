@@ -19,7 +19,7 @@ html{
 body{
     background-color: #101124;
     font-family: ailerons;
-    color: #03045F;
+    color: white;
     
 }
 
@@ -303,19 +303,19 @@ h1{
 
 .festival__descimg{
     display: block;
-    background-image: url("img/festivalscene.JPG");
+    background-image: url("img/pop\ simoké.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 50% 50%;
+    background-position: 50% 40%;
     width: 80%;
-    height: 50%;
+    height: 60%;
 }
 
 .section__desc{
     display: block;
     width: 80%;
     font-size: 18px;
-    color: #B0E1FA;
+    color: white;
     text-shadow:2px 2px 20px #2667FF;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -487,11 +487,11 @@ h1{
 
 .tickets__tickets{
     display: block;
-    background-image: url("img/festivaltickets.jpg");
+    background-image: url("img/tickets.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width: 60%;
+    width: 80%;
     height: 200px;
     border-radius: 45px;
     margin-bottom: 20px;
@@ -531,7 +531,7 @@ footer{
     width: 100%;
     height: 20vh;
     color: #f7f7ff;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 200;
     display: flex;
     align-items: center;
@@ -540,7 +540,6 @@ footer{
 
 .footer__item{
     display: inline-block;
-    width: 48%;
     height: 50%;
     text-align: center;
     padding: 20px;
@@ -690,6 +689,10 @@ h1{
     left: -20%;
 }
 
+.festival__descimg{
+    height: 80%;
+    background-position: 50% 45%;
+}
 
 h2{
     color: #B0E1FA;
@@ -775,6 +778,8 @@ h2{
 }
 
 .place__map{
+    background-size: cover;
+    height: 35vh;
     background-size: 100%;
     background-position: 50% 10%;
 }
@@ -797,6 +802,7 @@ h2{
     width: 60%;
     transition: .4s;
     height: 500px;
+    background-size: 125%;
 
 }
 

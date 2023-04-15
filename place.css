@@ -30,7 +30,9 @@ a{
 ul{
     list-style-type: none;
 }
-
+p{
+    color: white;
+}
 /*----------NAVBAR----------*/
 
 .navbar{
@@ -281,7 +283,7 @@ section{
     top: 50%;
     width: 95%;
     height: 0%;
-    background-color: #03045F;
+    background-color: #03055fa2;
     box-shadow: 2px 2px 20px #2667FF;
     border-radius: 15px;
     font-size: 18px;
@@ -295,6 +297,8 @@ section{
     padding: 8px;
 }
 
+
+
 .transport__way:hover > .transport__desc{
     top: 8%;
     height: 68%;
@@ -304,23 +308,37 @@ section{
 
 
 .plane{
-    background-color: #101124;
+    background-image: url("img/plane.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 40%;
 }
 
 .car{
-    background-color: #101124;
-
+    background-image: url("img/car.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 40%;
 }
+
+
 
 .bus{
-    background-color: #101124;
-
+    background-image: url("img/bus.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 40%;
 }
+
+
 
 .hotel{
-    background-color: #101124;
-
+    background-image: url("img/hotel.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 40%;
 }
+
 
 
 
@@ -331,16 +349,16 @@ footer{
     width: 100%;
     height: 10vh;
     color: #f7f7ff;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 200;
     display: flex;
     align-items: center;
+    text-shadow: none;
 
 }
 
 .footer__item{
     display: inline-block;
-    width: 48%;
     height: 50%;
     text-align: center;
     padding: 20px;

@@ -203,7 +203,7 @@ h2{
 .artists__title{
     height: 22.5vh;
     text-align: center;
-
+    
     display: flex;
     align-items: center;
 }
@@ -274,6 +274,8 @@ h3{
     bottom: -70px;
     text-align: center;
     font-size: 30px;
+    color: white;
+
 }
 
 .RSt{
@@ -461,7 +463,7 @@ footer{
     width: 100%;
     height: 10vh;
     color: #f7f7ff;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 200;
     display: flex;
     align-items: center;
@@ -470,7 +472,6 @@ footer{
 
 .footer__item{
     display: inline-block;
-    width: 48%;
     height: 50%;
     text-align: center;
     padding: 20px;
@@ -579,7 +580,7 @@ h2{
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: #B0E1FA;
+    color: white;
     text-shadow: 1px 1px 20px #03045F;
     background-color: #2667FF;
     box-shadow: 2px 2px 20px #2667FF;
@@ -613,6 +614,10 @@ h2{
     display: inline-block;
     width: 23%;
     height: 50vh;
+}
+
+.artists__name{
+    color: white;
 }
 
 .RAP .artists__photo .artists__name{
