@@ -452,6 +452,26 @@ footer{
         font-size: 60px;
     }
 
+    
+
+
+    /*----------FOOTER----------*/
+
+
+    .transport__way>h3{
+        width: 100%;
+        font-size: 38px;
+        position: relative;
+        top: 40%;
+        text-align: center;
+    
+        transition: .4s ease-in-out;
+
+
+
+
+
+    }
     /*----------FOOTER----------*/
 
 footer{
