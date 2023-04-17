@@ -9,7 +9,10 @@
     src: url(font/Ailerons-Typeface.otf);
     font-family: ailerons;
 }
-
+@font-face{
+    src: url(font/Biome-W01-Regular-1.ttf);
+    font-family: Biome;
+}
 
 *{
     box-sizing: border-box;

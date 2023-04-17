@@ -4,7 +4,10 @@
     src: url(font/Ailerons-Typeface.otf);
     font-family: ailerons;
 }
-
+@font-face{
+    src: url(font/Biome-W01-Regular-1.ttf);
+    font-family: Biome;
+}
 
 *{
     box-sizing: border-box;
@@ -316,7 +319,7 @@ h1{
 .section__desc{
     display: block;
     width: 80%;
-    font-size: 18px;
+    font-size: 24px;
     color: white;
     text-shadow:2px 2px 20px #2667FF;
     margin-top: 20px;

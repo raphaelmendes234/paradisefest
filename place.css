@@ -4,6 +4,10 @@
     src: url(font/Ailerons-Typeface.otf);
     font-family: ailerons;
 }
+@font-face{
+    src: url(font/Biome-W01-Regular-1.ttf);
+    font-family: Biome;
+}
 
 
 *{
@@ -456,9 +460,14 @@ footer{
 
 
 
-    /*----------FOOTER----------*/
+    /*----------TRANSPORT----------*/
 
 
+    .transport__desc> p{
+        padding: 16px;
+        font-size: 24px;
+    }
+    
     .transport__way>h3{
         width: 100%;
         font-size: 38px;
