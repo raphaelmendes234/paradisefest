@@ -1,7 +1,7 @@
 /*@import url("https://use.typekit.net/isx8per.css");*/
 
 @font-face{
-    src: url(font/Biome-W01-Regular-1.ttf);
+    src: url(font/Ailerons-Typeface.otf);
     font-family: ailerons;
 }
 
@@ -30,8 +30,9 @@ a{
 ul{
     list-style-type: none;
 }
+
 p{
-    color: white;
+    font-family: Biome;
 }
 /*----------NAVBAR----------*/
 

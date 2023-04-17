@@ -2,6 +2,11 @@
 
 @font-face{
     src: url(font/Biome-W01-Regular-1.ttf);
+    font-family: Biome;
+}
+
+@font-face{
+    src: url(font/Ailerons-Typeface.otf);
     font-family: ailerons;
 }
 
@@ -31,6 +36,9 @@ ul{
     list-style-type: none;
 }
 
+p{
+    font-family: Biome;
+}
 /*----------NAVBAR----------*/
 
 .navbar{

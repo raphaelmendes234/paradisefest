@@ -1,7 +1,7 @@
 /*@import url("https://use.typekit.net/isx8per.css");*/
 
 @font-face{
-    src: url(font/Biome-W01-Regular-1.ttf);
+    src: url(font/Ailerons-Typeface.otf);
     font-family: ailerons;
 }
 
@@ -19,7 +19,7 @@ html{
 body{
     background-color: #101124;
     font-family: ailerons;
-    color: white;
+    color: #03045F;
     
 }
 
@@ -31,7 +31,9 @@ ul{
     list-style-type: none;
 }
 
-
+p{
+    font-family: Biome;
+}
 /*#loading-wrapper{
     position: absolute;
     top: 0;
