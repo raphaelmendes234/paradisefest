@@ -319,7 +319,7 @@ h1{
 .section__desc{
     display: block;
     width: 80%;
-    font-size: 24px;
+    font-size: 20px;
     color: white;
     text-shadow:2px 2px 20px #2667FF;
     margin-top: 20px;
@@ -701,7 +701,7 @@ h1{
 
 h2{
     color: #B0E1FA;
-    font-size: 50px;
+    font-size: 60px;
     font-weight: 700;
     font-style: italic;
     

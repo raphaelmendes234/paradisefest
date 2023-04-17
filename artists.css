@@ -7,7 +7,7 @@
 @font-face{
     src: url(font/Biome-W01-Regular-1.ttf);
     font-family: Biome;
-}
+}       
 
 *{
     box-sizing: border-box;
@@ -590,7 +590,8 @@ h2{
     background-color: #2667FF;
     box-shadow: 2px 2px 20px #2667FF;
     overflow-x: hidden;
-    transition: .4s
+    transition: .4s;
+    font-size: 38px;
 }
 
 .ROCK .artists__photo:hover > .artists__name{
@@ -642,6 +643,7 @@ h2{
 
 .RAP .artists__photo:hover > .artists__name{
     height: 25%;
+    font-size: 38px;
 }
 
 .RAP .artists__photo{
