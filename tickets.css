@@ -228,9 +228,47 @@ h2{
 .tickets__img{
     width: 100%;
     height:150px;
+  
+}
+
+
+
+
+.tickets__button{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 60px;
+
+    font-size: 20px;
+    color: #f7f7ff;
+    border: solid 2px #f7f7ff;
     
 
+    transition: .4s;
 }
+
+.tickets__link{
+    text-decoration: none;
+}
+
+
+.tickets__button:hover{
+    background-color: #f7f7ff;
+    color: #101124;
+    border: solid 2px #f7f7ff;
+    cursor: pointer;
+    box-shadow: 2px 2px 20px #f7f7ff;
+}
+
+
+
+
+
+
 
 .rock{
     background-image: url("img/billets/Fichier\ 1.svg");
@@ -351,10 +389,6 @@ footer{
 
     
     /*----------SECTION----------*/
-    
-    section{
-        padding: 0px 15% 0px 15%;
-    }
 
 
    
@@ -380,7 +414,7 @@ footer{
     
     }
 
-
+ 
     /*----------FOOTER----------*/
 
 footer{
