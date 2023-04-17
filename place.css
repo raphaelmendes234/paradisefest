@@ -241,6 +241,7 @@ section{
 }
 
 .transport__way>h3{
+    width: 100%;
     font-size: 38px;
     position: relative;
     top: 40%;
@@ -277,6 +278,10 @@ section{
 .transport__way:hover > h3{
    top: 10%;
 }
+
+.transport__way:hover > h3{
+    top: 10%;
+ }
 
 .transport__desc{
     position: relative;
