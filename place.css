@@ -357,23 +357,26 @@ section{
 
 footer{
     width: 100%;
-    height: 10vh;
+    min-height: 10vh;
     color: #f7f7ff;
     font-size: 16px;
     font-weight: 200;
     display: flex;
+    justify-content: center;
     align-items: center;
-    text-shadow: none;
-
 }
 
 .footer__item{
-    display: inline-block;
+    display: flex;
     height: 50%;
     text-align: center;
     padding: 20px;
 }
 
+.footer__item > img{
+    width: 180px;
+    height: 50px;
+}
 
 
 
